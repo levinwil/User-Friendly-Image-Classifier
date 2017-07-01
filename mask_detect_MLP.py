@@ -16,17 +16,17 @@ To train a classifier, save it, then validate it:
 - put the remaining 1/4 of the Mask pictures in data/validation/Mask
 - put 3/4 of the No_Mask pictures in data/train/No_Mask
 - put the remaining 1/4 of the No_Mask pictures in data/validation/Mask
-- in command line, type "python mask_detect_MLP "'model_name' --train true".
+- in command line, type "python mask_detect_MLP 'model_name' --train true".
 
 To validate a saved classifier:
 - make sure your images follow the directory beow (specifically, make sure
   there are mask images in data/validation/Mask and not-mask images in
   data/validation/No_Mask)
-- in command line, type "python mask_detect_MLP "'model_name' --validate true".
+- in command line, type "python mask_detect_MLP 'model_name' --validate true".
 
 To predict image class using a saved classifier:
 - put the testing pictures in data/test/test
-- in command line, type "python mask_detect_MLP "'model_name' --predict true".
+- in command line, type "python mask_detect_MLP 'model_name' --predict true".
 
 In summary, this is our directory structure:
 
