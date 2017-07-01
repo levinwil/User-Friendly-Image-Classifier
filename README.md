@@ -51,27 +51,27 @@ To predict image class using a saved classifier:
 
 In summary, this is our directory structure:
 
-data/
-    train/
-        No_Mask/
-            No_Mask001.jpg
-            No_Mask002.jpg
-            ...
-        Mask/
-            Mask001.jpg
-            Mask002.jpg
-            ...
-    validation/
-        No_Mask/
-            No_Mask001.jpg
-            No_Mask002.jpg
-            ...
-        Mask/
-            Mask001.jpg
-            Mask002.jpg
-            ...
-    test/
-        test/
-            Test001.jpg
-            Test002.jpg
-            ...
+data/  
+    train/  
+        No_Mask/  
+            No_Mask001.jpg  
+            No_Mask002.jpg  
+            ...  
+        Mask/  
+            Mask001.jpg  
+            Mask002.jpg  
+            ...  
+    validation/  
+        No_Mask/  
+            No_Mask001.jpg  
+            No_Mask002.jpg  
+            ...  
+        Mask/  
+            Mask001.jpg  
+            Mask002.jpg  
+            ...  
+    test/  
+        test/  
+            Test001.jpg  
+            Test002.jpg  
+            ...  
