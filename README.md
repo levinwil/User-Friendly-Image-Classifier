@@ -1,5 +1,16 @@
 # Binary Image Classifier Software Setup and Guide
 
+## Why would you want to use this?
+
+Binary image classifiers are extremely useful in many sectors for many purposes.
+However, the majority of *good* binary image classifiers on the market either
+require a ton of setup/installation that can be a horrible pain, require some
+kind of license agreement that some people aren't comfortable agreeing to, or
+cost money (which is a bit problematic, because that means people are buying
+something before they even know how useful it actually is/how well it works).
+So, if you are looking for a free, no-license, painless-setup, easy-to-use binary
+image classifier, you've come to the right place :).
+
 ## Setup
 
 The following setup guide is made for Linux, Mac, and Windows. If you are using windows, whenever I say &quot;terminal script,&quot; it is the same thing as entering a command into git bash. If you don&#39;t know what that is, don&#39;t worry, it&#39;s very easy to use, and you&#39;ll only have to type a couple commands into it. If you are scared of entering commands into git bash because you are afraid you will mess up your computer, do not be afraid. As long as you don&#39;t type &quot;sudo rm- rf&quot; you will be fine. If a guide tells you to type, &quot;sudo rm- rf&quot; I promise you should not be doing that. Please do not do that. Press the back button and never go back there.
