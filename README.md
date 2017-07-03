@@ -17,17 +17,17 @@ The following setup guide is made for Linux, Mac, and Windows. If you are using 
 
 Dependencies:
 
-1. Python 2.7
-  a. (Windows) Follow the instructions in the following link: [http://docs.python-guide.org/en/latest/starting/install/win/](http://docs.python-guide.org/en/latest/starting/install/win/)
-  b. (Linux) pre-installed. Please make sure it is Python 2.7. If it is not, type the following in a terminal script: sudo dnf install python2
+1. Python 2.7  
+  a. (Windows) Follow the instructions in the following link: [http://docs.python-guide.org/en/latest/starting/install/win/](http://docs.python-guide.org/en/latest/starting/install/win/)  
+  b. (Linux) pre-installed. Please make sure it is Python 2.7. If it is not, type the following in a terminal script: sudo dnf install python2  
   c. (Mac) pre-installed. If it is not Python 2.7, follow the instructions in the following link:
   [http://python-guide-pt-br.readthedocs.io/en/latest/starting/install/osx/](http://python-guide-pt-br.readthedocs.io/en/latest/starting/install/osx/)
-2. Pip
-  a. (Windows) Follow the instructions in the following link (it is the same link as above, just scroll down): [http://docs.python-guide.org/en/latest/starting/install/win/](http://docs.python-guide.org/en/latest/starting/install/win/)
-  b. (Linux) terminal script: sudo apt-get install python-pip_
-  c. (Mac) pre-installed with python
-3. (Windows) git bash (must be installed after pip)
-  a. Follow the instructions at the following link: [https://openhatch.org/missions/windows-setup/install-git-bash](https://openhatch.org/missions/windows-setup/install-git-bash) (if you would like to know more about git bash, there is a little guide there)
+2. Pip  
+  a. (Windows) Follow the instructions in the following link (it is the same link as above, just scroll down): [http://docs.python-guide.org/en/latest/starting/install/win/](http://docs.python-guide.org/en/latest/starting/install/win/)  
+  b. (Linux) terminal script: sudo apt-get install python-pip_  
+  c. (Mac) pre-installed with python  
+3. (Windows) git bash (must be installed after pip)  
+  a. Follow the instructions at the following link: [https://openhatch.org/missions/windows-setup/install-git-bash](https://openhatch.org/missions/windows-setup/install-git-bash) (if you would like to know more about git bash, there is a little guide there)  
 4. In this folder, type the following command in a terminal script: sudo pip install -r requirements.txt
 
 ## Guide
