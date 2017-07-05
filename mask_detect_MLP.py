@@ -3,30 +3,21 @@ Author: Will LeVine
 Date: June 29, 2017
 Email: levinwil@outlook.com
 
-Description: A basic image classifier. It is currently set up to detect if
-someone is or is not wearing a mask. If you would like to use it for any purpose
-other than mask-detection, simply replace "No_Mask" and "Mask" with your 2
-classes.
+Description: A basic image classifier currently used for spoof-detection. If
+you would like to use it for any purpose other than spoof-detection, simply
+replace "No_Mask" and "Mask" with your 2 classes.
 
 Credits: This classifier is based off of the blog post "Building powerful image
 classification models using very little data" from blog.keras.io.
 
-To train a classifier, save it, then validate it:
+To train/validate this classifier:
 - put 3/4 of the Mask pictures in data/train/Mask
 - put the remaining 1/4 of the Mask pictures in data/validation/Mask
 - put 3/4 of the No_Mask pictures in data/train/No_Mask
 - put the remaining 1/4 of the No_Mask pictures in data/validation/Mask
-- in command line, type "python mask_detect_MLP 'model_name' --train true".
 
-To validate a saved classifier:
-- make sure your images follow the directory beow (specifically, make sure
-  there are mask images in data/validation/Mask and not-mask images in
-  data/validation/No_Mask)
-- in command line, type "python mask_detect_MLP 'model_name' --validate true".
-
-To predict image class using a saved classifier:
+To predict image class using this classifier after trainig:
 - put the testing pictures in data/test/test
-- in command line, type "python mask_detect_MLP 'model_name' --predict true".
 
 In summary, this is our directory structure:
 
@@ -66,7 +57,8 @@ import matplotlib.pyplot as plt
 import argparse
 
 
-'''A General Multi-Layer Perceptron Model for image classification'''
+'''A General Multi-Layer Perceptron Model for image classification geared
+towards spoof detection'''
 class Image_MLP(object):
 
     '''
