@@ -1,7 +1,7 @@
 # Binary Image Classifier Software Setup and Guide
-** Author: Will LeVine**  
-** Email: will.levine0@gmail.com**  
-** Date: July 5, 2017 **
+**Author: Will LeVine**   
+**Email: will.levine0@gmail.com**     
+**Date: July 5, 2017**  
 
 ## Why would you want to use this?
 
