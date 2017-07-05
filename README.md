@@ -118,5 +118,5 @@ data/
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...  
 
 
-There is a lot of detail in the mask_detect-MLP.py code that explains what
+There is a lot of detail in the mask_detect_MLP.py code that explains what
 each step does.
