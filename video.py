@@ -28,7 +28,6 @@ args = parser.parse_args()
 if args.mask == True:
     path_to_validate = "data/validation/Mask/"
     path_to_train = "data/train/Mask/"
-    print "HERE"
 else:
     path_to_validate = "data/validation/No_Mask/"
     path_to_train = "data/train/No_Mask/"
@@ -43,7 +42,6 @@ isfile(join(path_to_train, f))]
 
 cap = cv2.VideoCapture(0)
 count = np.max(files) + 10
-print count
 while(True):
     # Capture frame-by-frame
     ret, frame = cap.read()
